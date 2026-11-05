@@ -1,0 +1,27 @@
+capture_id,archive,member,label,attack_rate,label_source,capture_duration_s,captured_packets,tcp_syn_without_ack,first_timestamp_unix,last_timestamp_unix,linktypes,file_size_bytes,parse_error
+Benign_Only.zip::Benign_Only/client_normal_1_210110.pcap,Benign_Only.zip,Benign_Only/client_normal_1_210110.pcap,0.0,benign,member_name,9527.123456001282,227611.0,14988.0,1610334017.52071,1610343544.644166,1,51460228,
+Benign_Only.zip::__MACOSX/Benign_Only/._client_normal_1_210110.pcap,Benign_Only.zip,__MACOSX/Benign_Only/._client_normal_1_210110.pcap,0.0,benign,member_name,,,,,,,176,Unknown classic PCAP magic
+Benign_Only.zip::Benign_Only/client_normal_2_210111.pcap,Benign_Only.zip,Benign_Only/client_normal_2_210111.pcap,0.0,benign,member_name,32400.0223801136,227680.0,14719.0,1610344223.573129,1610376623.595509,1,51402604,
+Benign_Only.zip::__MACOSX/Benign_Only/._client_normal_2_210111.pcap,Benign_Only.zip,__MACOSX/Benign_Only/._client_normal_2_210111.pcap,0.0,benign,member_name,,,,,,,176,Unknown classic PCAP magic
+Benign_Only.zip::Benign_Only/client_normal_3_210111.pcap,Benign_Only.zip,Benign_Only/client_normal_3_210111.pcap,0.0,benign,member_name,2799.2032558918,165580.0,11047.0,1610376752.145652,1610379551.348908,1,37372613,
+Benign_Only.zip::__MACOSX/Benign_Only/._client_normal_3_210111.pcap,Benign_Only.zip,__MACOSX/Benign_Only/._client_normal_3_210111.pcap,0.0,benign,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_1.zip::PCAPs_1/slowread_1.pcap,PCAPs_1.zip,PCAPs_1/slowread_1.pcap,,excluded_non_SYN_attack,,2936.674551010132,189494.0,12624.0,1610289333.469653,1610292270.144204,1,45008036,
+PCAPs_1.zip::__MACOSX/PCAPs_1/._slowread_1.pcap,PCAPs_1.zip,__MACOSX/PCAPs_1/._slowread_1.pcap,,excluded_non_SYN_attack,,,,,,,,176,Unknown classic PCAP magic
+PCAPs_1.zip::PCAPs_1/slowread_2.pcap,PCAPs_1.zip,PCAPs_1/slowread_2.pcap,,excluded_non_SYN_attack,,6343.547676086426,191284.0,12661.0,1610292459.665881,1610298803.213557,1,45409812,
+PCAPs_1.zip::__MACOSX/PCAPs_1/._slowread_2.pcap,PCAPs_1.zip,__MACOSX/PCAPs_1/._slowread_2.pcap,,excluded_non_SYN_attack,,,,,,,,176,Unknown classic PCAP magic
+PCAPs_1.zip::PCAPs_1/syn25_1.pcap,PCAPs_1.zip,PCAPs_1/syn25_1.pcap,1.0,Syn25,member_name,3449.5819251537323,184584.0,14506.0,1610217180.4686599,1610220630.050585,1,42155032,
+PCAPs_1.zip::__MACOSX/PCAPs_1/._syn25_1.pcap,PCAPs_1.zip,__MACOSX/PCAPs_1/._syn25_1.pcap,1.0,Syn25,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_1.zip::PCAPs_1/syn25_2.pcap,PCAPs_1.zip,PCAPs_1/syn25_2.pcap,1.0,Syn25,member_name,3988.9841179847717,178264.0,14064.0,1610220961.071007,1610224950.055125,1,40611324,
+PCAPs_1.zip::__MACOSX/PCAPs_1/._syn25_2.pcap,PCAPs_1.zip,__MACOSX/PCAPs_1/._syn25_2.pcap,1.0,Syn25,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_2.zip::PCAPs_2/syn50_1.pcap,PCAPs_2.zip,PCAPs_2/syn50_1.pcap,1.0,Syn50,member_name,4847.995428085327,168082.0,15384.0,1610390438.1941419,1610395286.18957,1,36293664,
+PCAPs_2.zip::__MACOSX/PCAPs_2/._syn50_1.pcap,PCAPs_2.zip,__MACOSX/PCAPs_2/._syn50_1.pcap,1.0,Syn50,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_2.zip::PCAPs_2/syn50_2.pcap,PCAPs_2.zip,PCAPs_2/syn50_2.pcap,1.0,Syn50,member_name,84899.33194899559,189960.0,15487.0,1610395346.257617,1610480245.589566,1,41653296,
+PCAPs_2.zip::__MACOSX/PCAPs_2/._syn50_2.pcap,PCAPs_2.zip,__MACOSX/PCAPs_2/._syn50_2.pcap,1.0,Syn50,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_2.zip::PCAPs_2/syn75_1.pcap,PCAPs_2.zip,PCAPs_2/syn75_1.pcap,1.0,Syn75,member_name,2616.5964291095734,162214.0,16754.0,1610246422.1609569,1610249038.757386,1,33813380,
+PCAPs_2.zip::__MACOSX/PCAPs_2/._syn75_1.pcap,PCAPs_2.zip,__MACOSX/PCAPs_2/._syn75_1.pcap,1.0,Syn75,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_2.zip::PCAPs_2/syn75_2.pcap,PCAPs_2.zip,PCAPs_2/syn75_2.pcap,1.0,Syn75,member_name,37667.138946056366,172914.0,17223.0,1610249580.1103098,1610287247.249256,1,36071164,
+PCAPs_2.zip::__MACOSX/PCAPs_2/._syn75_2.pcap,PCAPs_2.zip,__MACOSX/PCAPs_2/._syn75_2.pcap,1.0,Syn75,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_3.zip::PCAPs_3/syn10_1.pcap,PCAPs_3.zip,PCAPs_3/syn10_1.pcap,1.0,Syn10,member_name,4860.013880968094,113694.0,7989.0,1610225490.0557868,1610230350.0696678,1,26833464,
+PCAPs_3.zip::__MACOSX/PCAPs_3/._syn10_1.pcap,PCAPs_3.zip,__MACOSX/PCAPs_3/._syn10_1.pcap,1.0,Syn10,member_name,,,,,,,176,Unknown classic PCAP magic
+PCAPs_3.zip::PCAPs_3/syn10_2.pcap,PCAPs_3.zip,PCAPs_3/syn10_2.pcap,1.0,Syn10,member_name,14401.992065906525,178793.0,12527.0,1610231898.505533,1610246300.497599,1,42241628,
+PCAPs_3.zip::__MACOSX/PCAPs_3/._syn10_2.pcap,PCAPs_3.zip,__MACOSX/PCAPs_3/._syn10_2.pcap,1.0,Syn10,member_name,,,,,,,176,Unknown classic PCAP magic

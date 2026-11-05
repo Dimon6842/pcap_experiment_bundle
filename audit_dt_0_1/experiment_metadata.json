@@ -1,0 +1,27 @@
+{
+  "dataset": "UTSA-2021 Low-rate DoS Attack",
+  "archives_scanned": [
+    "Benign_Only.zip",
+    "PCAPs_1.zip",
+    "PCAPs_2.zip",
+    "PCAPs_3.zip"
+  ],
+  "capture_count": 13,
+  "labelled_capture_count": 11,
+  "window_count": 998,
+  "bin_width_s": 0.1,
+  "window_duration_s": 200.0,
+  "expected_attack_period_s": 1.0,
+  "attack_pulse_duration_s": 0.1,
+  "active_phase_s": 100.0,
+  "quiet_phase_s": 100.0,
+  "random_seed": 20261030,
+  "limitations": [
+    "Phase alignment is estimated from the documented periodic pulse template; inspect phase_quality_z and phase_consistency_0p2s before interpreting the results.",
+    "The holdout split is chronological within each capture; it is not capture-level when only one pcap is available per class.",
+    "AUC intervals use a capture-cluster bootstrap when several files exist, otherwise circular blocks of three 200-s windows within the file.",
+    "Repeated masked variants of one cycle are not independent network captures.",
+    "The score tests a known fundamental-frequency region (0.8-1.2 Hz); period estimation searches 0.5-1.5 Hz.",
+    "Only SYN packets without ACK are used; IPv4/IPv6 and link-layer support depend on parsed capture formats."
+  ]
+}

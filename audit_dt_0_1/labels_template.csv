@@ -1,0 +1,14 @@
+member,capture_id,guessed_label,guessed_attack_rate,label,attack_rate
+Benign_Only/client_normal_1_210110.pcap,Benign_Only.zip::Benign_Only/client_normal_1_210110.pcap,0.0,benign,0,benign
+Benign_Only/client_normal_2_210111.pcap,Benign_Only.zip::Benign_Only/client_normal_2_210111.pcap,0.0,benign,0,benign
+Benign_Only/client_normal_3_210111.pcap,Benign_Only.zip::Benign_Only/client_normal_3_210111.pcap,0.0,benign,0,benign
+PCAPs_1/slowread_1.pcap,PCAPs_1.zip::PCAPs_1/slowread_1.pcap,,excluded_non_SYN_attack,,excluded_non_SYN_attack
+PCAPs_1/slowread_2.pcap,PCAPs_1.zip::PCAPs_1/slowread_2.pcap,,excluded_non_SYN_attack,,excluded_non_SYN_attack
+PCAPs_1/syn25_1.pcap,PCAPs_1.zip::PCAPs_1/syn25_1.pcap,1.0,Syn25,1,Syn25
+PCAPs_1/syn25_2.pcap,PCAPs_1.zip::PCAPs_1/syn25_2.pcap,1.0,Syn25,1,Syn25
+PCAPs_2/syn50_1.pcap,PCAPs_2.zip::PCAPs_2/syn50_1.pcap,1.0,Syn50,1,Syn50
+PCAPs_2/syn50_2.pcap,PCAPs_2.zip::PCAPs_2/syn50_2.pcap,1.0,Syn50,1,Syn50
+PCAPs_2/syn75_1.pcap,PCAPs_2.zip::PCAPs_2/syn75_1.pcap,1.0,Syn75,1,Syn75
+PCAPs_2/syn75_2.pcap,PCAPs_2.zip::PCAPs_2/syn75_2.pcap,1.0,Syn75,1,Syn75
+PCAPs_3/syn10_1.pcap,PCAPs_3.zip::PCAPs_3/syn10_1.pcap,1.0,Syn10,1,Syn10
+PCAPs_3/syn10_2.pcap,PCAPs_3.zip::PCAPs_3/syn10_2.pcap,1.0,Syn10,1,Syn10
