@@ -1,0 +1,24 @@
+{
+  "status": "BLOCKED",
+  "missing_archives": [],
+  "parse_errors": [],
+  "capture_counts": {
+    "benign": 3,
+    "attack": 8
+  },
+  "window_counts": {
+    "benign": 50,
+    "attack": 94
+  },
+  "window_capture_counts": {
+    "benign": 3,
+    "attack": 8
+  },
+  "qualified_attack_captures": 0,
+  "gap_split_threshold_s": 5.0,
+  "window_s": 200.0,
+  "bin_width_s": 0.01,
+  "blockers": [
+    "Documented pulse pattern confirmed in only 0 attack captures; need >=3 captures with >=5 windows each, median pulse-bin share >=0.10 and phase stability >=0.70"
+  ]
+}

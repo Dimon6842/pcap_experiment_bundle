@@ -1,0 +1,19 @@
+UTSA-2021 FINAL PRE-FLIGHT
+==========================================
+STATUS: BLOCKED
+
+Required archives present: 4/4
+Readable target captures: 11
+Benign captures: 3; attack captures: 8
+Continuous 200-s windows: benign=50, attack=94
+Independent captures contributing windows: benign=3, attack=8
+Attack captures confirming pulse signature: 0
+Continuous-segment rule: split if adjacent packet gap > 5.0 s
+Window duration: 200 s; bin width: 0.01 s; expected pulse: 0.1 s each 1 s during first 100 s of cycle
+Source IP addresses are not used for labels, phase detection or detector features.
+The 5-s split threshold is fixed before the main run; no 200-s window crosses a >5-s packet gap.
+
+BLOCKERS:
+- Documented pulse pattern confirmed in only 0 attack captures; need >=3 captures with >=5 windows each, median pulse-bin share >=0.10 and phase stability >=0.70
+
+Do NOT run the main experiment. This report is the definitive pre-flight result; do not tune thresholds after seeing test outcomes.

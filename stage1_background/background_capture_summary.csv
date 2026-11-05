@@ -1,0 +1,4 @@
+capture,windows,median_packets_per_bin,median_zero_bin_fraction,median_packet_total,median_p99_packets_per_bin
+client_normal_1_210110.pcap,19,0.5879,0.91075,11758.0,10.0
+client_normal_2_210111.pcap,18,0.597925,0.909475,11958.5,10.0
+client_normal_3_210111.pcap,13,0.59715,0.90935,11943.0,10.0

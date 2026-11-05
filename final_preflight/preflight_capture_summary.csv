@@ -1,0 +1,12 @@
+capture_id,archive,member,label,attack_rate,format,packet_count,syn_count,timestamp_span_s,max_gap_s,gaps_gt_5s,p99_gap_s,out_of_order_in_file,continuous_segments,segments_ge_200s,eligible_200s_windows
+Benign_Only.zip::Benign_Only/client_normal_1_210110.pcap,Benign_Only.zip,Benign_Only/client_normal_1_210110.pcap,0,benign,classic_pcap,227611,14988,9527.123456001282,300.0479700565338,173,0.4864326596260072,94,135,1,19
+Benign_Only.zip::Benign_Only/client_normal_2_210111.pcap,Benign_Only.zip,Benign_Only/client_normal_2_210111.pcap,0,benign,classic_pcap,227680,14719,32400.0223801136,300.04796409606934,905,0.8031919622421184,94,602,1,18
+Benign_Only.zip::Benign_Only/client_normal_3_210111.pcap,Benign_Only.zip,Benign_Only/client_normal_3_210111.pcap,0,benign,classic_pcap,165580,11047,2799.2032558918,1.3374300003051758,0,0.4304118824005126,78,1,1,13
+PCAPs_1.zip::PCAPs_1/syn25_1.pcap,PCAPs_1.zip,PCAPs_1/syn25_1.pcap,1,Syn25,pcapng,184584,14506,3449.5819251537323,180.00022196769714,20,0.31680368423461913,72,15,1,14
+PCAPs_1.zip::PCAPs_1/syn25_2.pcap,PCAPs_1.zip,PCAPs_1/syn25_2.pcap,1,Syn25,pcapng,178264,14064,3988.9841179847717,180.00037097930908,48,0.3196415662765492,67,38,1,13
+PCAPs_2.zip::PCAPs_2/syn50_1.pcap,PCAPs_2.zip,PCAPs_2/syn50_1.pcap,1,Syn50,pcapng,168082,15384,4847.995428085327,180.00029492378235,80,0.33195568561553945,46,56,1,12
+PCAPs_2.zip::PCAPs_2/syn50_2.pcap,PCAPs_2.zip,PCAPs_2/syn50_2.pcap,1,Syn50,pcapng,189960,15487,84899.33194899559,180.00321984291077,2807,7.251864662170388,49,1767,1,12
+PCAPs_2.zip::PCAPs_2/syn75_1.pcap,PCAPs_2.zip,PCAPs_2/syn75_1.pcap,1,Syn75,pcapng,162214,16754,2616.5964291095734,69.85559415817261,11,0.3209079980850213,67,9,1,10
+PCAPs_2.zip::PCAPs_2/syn75_2.pcap,PCAPs_2.zip,PCAPs_2/syn75_2.pcap,1,Syn75,pcapng,172914,17223,37667.138946056366,180.0016589164734,1256,2.6947045326232972,49,772,1,10
+PCAPs_3.zip::PCAPs_3/syn10_1.pcap,PCAPs_3.zip,PCAPs_3/syn10_1.pcap,1,Syn10,pcapng,113694,7989,4860.013880968094,180.00039291381836,81,0.4727322483062712,52,56,1,9
+PCAPs_3.zip::PCAPs_3/syn10_2.pcap,PCAPs_3.zip,PCAPs_3/syn10_2.pcap,1,Syn10,pcapng,178793,12527,14401.992065906525,180.0012629032135,398,0.4922768568992617,80,253,1,14

@@ -1,0 +1,12 @@
+{
+  "source_archive": "Benign_Only.zip",
+  "source_type": "real benign PCAP packet timestamps",
+  "window_duration_s": 200.0,
+  "bin_width_s": 0.01,
+  "continuity_gap_s": 5.0,
+  "bins_per_window": 20000,
+  "captures_with_windows": 3,
+  "windows": 50,
+  "errors": 0,
+  "note": "No synthetic anomaly or missing-data mask has been applied."
+}
