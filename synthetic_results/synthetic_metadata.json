@@ -1,0 +1,60 @@
+{
+  "experiment": "Synthetic periodic anomaly added to real benign PCAP background",
+  "source_archive": "Benign_Only.zip",
+  "source_measurement": "timestamps of TCP SYN packets without ACK, parsed from real PCAP files",
+  "bin_width_s": 0.1,
+  "window_duration_s": 200.0,
+  "anomaly_period_s": 1.0,
+  "anomaly_pulse_duration_s": 0.1,
+  "anomaly_active_phase_s": 100.0,
+  "anomaly_quiet_phase_s": 100.0,
+  "anomaly_amplitudes_added_packets_per_pulse_bin": [
+    1,
+    2,
+    4
+  ],
+  "gap_durations_s": [
+    5.0,
+    10.0,
+    20.0,
+    40.0
+  ],
+  "gap_scenarios": [
+    "none",
+    "gap_active",
+    "gap_quiet",
+    "gap_boundary",
+    "fragmented",
+    "random_points",
+    "gap_active",
+    "gap_quiet",
+    "gap_boundary",
+    "fragmented",
+    "random_points",
+    "gap_active",
+    "gap_quiet",
+    "gap_boundary",
+    "fragmented",
+    "random_points",
+    "gap_active",
+    "gap_quiet",
+    "gap_boundary",
+    "fragmented",
+    "random_points"
+  ],
+  "methods": [
+    "fft_linear",
+    "fft_zero",
+    "lomb_scargle"
+  ],
+  "validation": "Leave-one-capture-out: the tested PCAP is excluded from threshold calibration.",
+  "threshold": "95th percentile of scores on training benign windows",
+  "masking": "The same missing-observation mask is applied to the original and anomaly-injected version of each test window.",
+  "limitations": [
+    "The anomaly is simulated by adding SYN packet counts to real benign traffic.",
+    "The simulated pulse pattern is known and aligned to the 200-second window.",
+    "Only TCP SYN packets without ACK are analysed.",
+    "The number of independent benign PCAP captures is small.",
+    "This experiment tests controlled detectability, not detection of an unknown real attack."
+  ]
+}

@@ -1,0 +1,4 @@
+capture_id,member,capture_duration_s,captured_packets,tcp_syn_without_ack,linktypes
+Benign_Only.zip::Benign_Only/client_normal_1_210110.pcap,Benign_Only/client_normal_1_210110.pcap,9527.123456001282,227611,14988,1
+Benign_Only.zip::Benign_Only/client_normal_2_210111.pcap,Benign_Only/client_normal_2_210111.pcap,32400.0223801136,227680,14719,1
+Benign_Only.zip::Benign_Only/client_normal_3_210111.pcap,Benign_Only/client_normal_3_210111.pcap,2799.2032558918,165580,11047,1
